@@ -60,18 +60,21 @@ Repeated failed SSH login attempts are generated against the local system.
 ## Unauthorized Netcat Listener (T1049)
 
 A suspicious listener is created on a non-standard port using netcat.
+![Netcat Listener](netcat_listener.png)
 
 ---
 
 ## Persistence via Cron Job (T1053.003)
 
 A benign cron job is added to simulate persistence behavior.
+![Cron Persistence](cron_persistence.png)
 
 ---
 
 ## Detection Output (SOC-Style Alerts)
 
 Detections generate timestamped alerts with severity levels and MITRE ATT&CK mappings.
+![Detection Alerts](final_alerts.png)
 
 Example alert:
 
