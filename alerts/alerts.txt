@@ -1,0 +1,22 @@
+[2025-12-23T00:42:29Z] [INFO] [T1110] [SSH Brute Force] No logs/auth.log found. Copy /var/log/auth.log to logs/auth.log.
+[2025-12-23T00:42:29Z] [INFO] [T1053.003] [Cron Persistence Check] No user crontab entries found for kali.
+[2025-12-23T00:42:29Z] [LOW] [T1049] [Listening Services Baseline] Listening socket snapshot captured. LISTEN lines: 2
+[2025-12-23T00:42:29Z] [LOW] [T1057] [Process Monitoring] No suspicious process patterns matched.
+[2025-12-23T00:42:37Z] [INFO] [T1110] [SSH Brute Force] No logs/auth.log found. Copy /var/log/auth.log to logs/auth.log.
+[2025-12-23T00:42:37Z] [INFO] [T1053.003] [Cron Persistence Check] No user crontab entries found for kali.
+[2025-12-23T00:42:37Z] [LOW] [T1049] [Listening Services Baseline] Listening socket snapshot captured. LISTEN lines: 2
+[2025-12-23T00:42:37Z] [LOW] [T1057] [Process Monitoring] No suspicious process patterns matched.
+[2025-12-23T00:44:04Z] [INFO] [T1110] [SSH Brute Force] No logs/auth.log found. Copy /var/log/auth.log to logs/auth.log.
+[2025-12-23T00:44:04Z] [INFO] [T1053.003] [Cron Persistence Check] No user crontab entries found for kali.
+[2025-12-23T00:44:04Z] [LOW] [T1049] [Listening Services Baseline] Listening socket snapshot captured. LISTEN lines: 2
+[2025-12-23T00:44:04Z] [LOW] [T1057] [Process Monitoring] No suspicious process patterns matched.
+[2025-12-23T00:44:36Z] [INFO] [T1110] [SSH Brute Force] No logs/auth.log found. Copy /var/log/auth.log to logs/auth.log.
+[2025-12-23T00:44:36Z] [INFO] [T1053.003] [Cron Persistence Check] No user crontab entries found for kali.
+[2025-12-23T00:44:36Z] [HIGH] [T1049] [Suspicious Listener (netcat)] Detected netcat listener(s): LISTEN 0      1            0.0.0.0:4444      0.0.0.0:*    users:(("nc",pid=28280,fd=3))
+[2025-12-23T00:44:36Z] [MEDIUM] [T1049] [Unexpected Listening Port] Port 4444 is listening: LISTEN 0      1            0.0.0.0:4444      0.0.0.0:*    users:(("nc",pid=28280,fd=3))
+[2025-12-23T00:44:36Z] [LOW] [T1049] [Listening Services Baseline] Listening socket snapshot captured. LISTEN lines: 3
+[2025-12-23T00:44:36Z] [MEDIUM] [T1057] [Suspicious Process Patterns] Matched suspicious process pattern(s): kali       28280  0.0  0.1   2792  2120 pts/0    S+   19:44   0:00 nc -lvnp 4444
+[2025-12-23T00:52:17Z] [HIGH] [T1110] [SSH Brute Force / Password Guessing] IP ::1 has 9 failed SSH logins (threshold=5).
+[2025-12-23T00:52:17Z] [INFO] [T1053.003] [Cron Persistence Check] No user crontab entries found for kali.
+[2025-12-23T00:52:17Z] [LOW] [T1049] [Listening Services Baseline] Listening socket snapshot captured. LISTEN lines: 2
+[2025-12-23T00:52:17Z] [LOW] [T1057] [Process Monitoring] No suspicious process patterns matched.
