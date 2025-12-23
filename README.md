@@ -105,7 +105,7 @@ It documents detection logic, MITRE mapping, validation steps, and response reco
 
 ---
 
-- Key Skills Demonstrated
+## Key Skills Demonstrated
 
 - Detection Engineering
 
