@@ -46,7 +46,7 @@ detection-engineering-project/
 ├── screenshots/    # Project screenshots
 ├── run_all.sh      # One-click detection runner
 └── README.md
-
+```
 ---
 
 ## Attack Simulation
