@@ -52,29 +52,43 @@ detection-engineering-project/
 ## Attack Simulation
 SSH Brute Force Simulation (T1110)
 
-Repeated failed SSH login attempts are generated against the local system.
-![SSH Brute Force Simulation](ssh_bruteforce_simulation.png)
+## SSH Brute Force Simulation (T1110)
+
+Repeated failed SSH login attempts are generated against the local system to simulate **password guessing / brute-force behavior**.
+
+<p align="center">
+  <img src="ssh_bruteforce_simulation.png" width="900" alt="SSH Brute Force Simulation">
+</p>
 
 ---
 
 ## Unauthorized Netcat Listener (T1049)
 
-A suspicious listener is created on a non-standard port using netcat.
-![Netcat Listener](netcat_listener.png)
+A suspicious network listener is created on a **non-standard port** using `netcat`, simulating unauthorized service exposure.
+
+<p align="center">
+  <img src="netcat_listener.png" width="900" alt="Unauthorized Netcat Listener">
+</p>
 
 ---
 
 ## Persistence via Cron Job (T1053.003)
 
-A benign cron job is added to simulate persistence behavior.
-![Cron Persistence](cron_persistence.png)
+A benign cron job is added to simulate **persistence through scheduled tasks**.
+
+<p align="center">
+  <img src="cron_persistence.png" width="900" alt="Persistence via Cron Job">
+</p>
 
 ---
 
 ## Detection Output (SOC-Style Alerts)
 
-Detections generate timestamped alerts with severity levels and MITRE ATT&CK mappings.
-![Detection Alerts](final_alerts.png)
+Custom detections generate **timestamped, severity-based alerts** mapped to MITRE ATT&CK techniques.
+
+<p align="center">
+  <img src="final_alerts.png" width="900" alt="SOC-Style Detection Alerts">
+</p>
 
 Example alert:
 
