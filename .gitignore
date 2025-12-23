@@ -1,0 +1,8 @@
+# Local logs / outputs
+alerts/alerts.txt
+logs/
+*.log
+
+# OS/editor
+.DS_Store
+*.swp
