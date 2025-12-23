@@ -53,6 +53,7 @@ detection-engineering-project/
 SSH Brute Force Simulation (T1110)
 
 Repeated failed SSH login attempts are generated against the local system.
+![SSH Brute Force Simulation](ssh_bruteforce_simulation.png)
 
 ---
 
